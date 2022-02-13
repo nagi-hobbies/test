@@ -4,9 +4,9 @@ import antlr4
 from antlr4.error.ErrorListener import ErrorListener
 
 # test
-from latex2sympy.latex2sympy.gen.PSParser import PSParser
-from latex2sympy.latex2sympy.gen.PSLexer import PSLexer
-from latex2sympy.latex2sympy.gen.PSListener import PSListener
+from latex2sympy.gen.PSParser import PSParser
+from latex2sympy.gen.PSLexer import PSLexer
+from latex2sympy.gen.PSListener import PSListener
 
 from sympy.printing.str import StrPrinter
 

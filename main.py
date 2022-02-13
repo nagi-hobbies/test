@@ -1,7 +1,7 @@
 import streamlit as st
 import sympy as sp
 
-from latex2sympy.latex2sympy import process_latex
+from latex2sympy import process_latex
 
 st.title('Calculator')
 
